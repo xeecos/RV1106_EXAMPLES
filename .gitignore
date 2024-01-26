@@ -32,3 +32,6 @@
 *.app
 .vscode
 build
+out
+v4l-utils-1.16.5
+argp-standalone-1.3

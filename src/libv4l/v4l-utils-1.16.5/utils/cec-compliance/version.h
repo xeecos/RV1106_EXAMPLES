@@ -1,1 +1,0 @@
-#define SHA 27f0efe03e34a402b62cffb87324dbf37798a3b3
