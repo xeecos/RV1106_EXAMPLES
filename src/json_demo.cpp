@@ -1,10 +1,10 @@
-#include "json.hpp"
+#include "utils/json.h"
 #include <string>
 #include <fstream>
 using json = nlohmann::json;
 int main()
 {
-    std::ifstream f("example.json");
+    std::ifstream f("data/example.json");
     json data = json::parse(f);
     std::string name = data["name"];
     float pi = data["pi"];
