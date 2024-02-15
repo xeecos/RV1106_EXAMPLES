@@ -1,5 +1,5 @@
 #include <iostream>
-#include "utils/ninjaipc.h"
+#include "ninjaipc.h"
 
 using namespace NinjaIPC;
 

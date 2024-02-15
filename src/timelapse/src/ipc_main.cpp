@@ -1,6 +1,6 @@
 #include <iostream>
 #include <signal.h>
-#include "utils/ninjaipc.h"
+#include "ninjaipc.h"
 
 using namespace NinjaIPC;
 void handle_exit(int sig)

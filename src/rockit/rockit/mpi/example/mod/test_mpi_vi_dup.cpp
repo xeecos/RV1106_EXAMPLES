@@ -442,7 +442,7 @@ static void *GetMediaBuffer(void *arg) {
 
     stFrame.pstPack = (VENC_PACK_S*)malloc(sizeof(VENC_PACK_S));
     while (!quit) {
-        s32Ret = RK_MPI_VENC_GetStream(chn, &stFrame, 1000);
+        s32Ret = RK_MPI_VENC_GetStream(chn, &stFrame, 0);
         if (s32Ret == RK_SUCCESS) {
             if (loopCount < 10000)
                 printf("chn:%d, loopCount:%d enc->seq:%d,pts=%lld\n", chn, loopCount,
